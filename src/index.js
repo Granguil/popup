@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from './styles.module.css'
+import PopupComponent from './Popup'
 
-export const ExampleComponent = ({ text }) => {
-  return <div className={styles.test}>Example Component: {text}</div>
+export const Popup = ({ text, type, buttons }) => {
+  return <PopupComponent type={type} text={text} boutons={buttons} />
 }
