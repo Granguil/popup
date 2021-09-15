@@ -30,10 +30,17 @@
   background-color: blue;
 }
 
+.Afficher {
+  color: black;
+  background-color: var(--add2-color);
+  border-color: var(--secondary-color);
+}
+
 .popup {
-  height: 200px;
-  width: 400px;
-  position: absolute;
+  min-height: 200px;
+  width: 80%;
+  max-width: 600px;
+  position: fixed;
   top: 100px;
   left: 50%;
   margin-left: auto;
@@ -47,7 +54,7 @@
 
 .text {
   margin: 20px;
-  background-color: lightgrey;
+  background-color: var(--add1-color);
 }
 
 .buttonPopup {
